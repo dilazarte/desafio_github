@@ -21,6 +21,16 @@
     padding-bottom: 30px;
 }
 
+.socials .social-icono {
+    font-size: 22px;
+    color:rgb(161, 161, 161);
+}
+
+.socials .social-icono:hover {
+    color: rgb(255, 255, 255);
+}
+
+
 .direccion, .phone, .copyright {
     color:map-get($generales , colorParrafo);
 }
@@ -32,5 +42,7 @@
     padding-bottom: 15px;
     border-top: 1px solid rgb(48, 48, 48);
 }
+
+
 
 /* ---FIN FOOTER --- */

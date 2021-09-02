@@ -127,6 +127,15 @@ div .card-cd-1 {
   padding-bottom: 30px;
 }
 
+.socials .social-icono {
+  font-size: 22px;
+  color: #a1a1a1;
+}
+
+.socials .social-icono:hover {
+  color: white;
+}
+
 .direccion, .phone, .copyright {
   color: white;
 }
