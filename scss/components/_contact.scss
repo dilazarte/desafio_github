@@ -1,0 +1,57 @@
+
+/* --- INICIO SECCION CONTACTO --- */
+
+.contact-us {
+    background-color: #181818;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    border-bottom: rgb(100, 58, 2) 2px solid;
+}
+
+.contact-us {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.contact-sec {
+    width: 60%;
+    padding-left: 0;
+    padding: 15px 15px;
+    border-radius: 8px;
+    margin: auto;
+    background-color: rgba(80, 80, 80, 0.466);
+}
+
+.contacto label {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.contacto .casilleros, textarea {
+    width: 100%;
+}
+
+.contact-us form {
+    color: white;
+}
+
+.boton {
+    width: auto;
+    padding: 5px;
+    background-color: rgba(66, 92, 117, 0.822);
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(81, 110, 206);
+    border-radius: 6px;
+}
+
+.boton:hover{
+    background-color: rgba(36, 55, 73, 0.822);
+}
+
+/* --- FIN SECCION CONTACTO --- */
+

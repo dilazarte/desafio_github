@@ -1,0 +1,52 @@
+
+/* --- INICIO SECCION CATALOGO --- */
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    border-bottom: rgb(100, 58, 2) 2px solid;
+}
+
+
+.t-cds, .t-vinyl, .t-tapes {
+    padding-left: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+}
+
+.lista-catalogo {
+    margin: auto;
+    width: 95%;
+    height: 50%;
+    text-align: center;
+    background: gray;
+    margin-bottom: 20px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+.list-title td {
+    background-color: rgb(105, 105, 105);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#video-promo {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/* --- FIN SECCION CATALOGO --- */
+

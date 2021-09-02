@@ -1,0 +1,20 @@
+@import '../base/vars';
+
+/* ------------------------- */
+/* --- INICIO  DE MIXINS ---*/
+
+@mixin bgColorAll {
+    background-image: url('../img/bgimage.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    margin: 0px;
+    padding: 5px 0;
+}
+
+body {
+    @include bgColorAll();
+}
+
+/* --- FIN DE MIXINS ---*/
+/* ------------------------- */

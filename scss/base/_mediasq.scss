@@ -1,0 +1,62 @@
+/* -------------------- */
+/* SECCION MEDIA QUERYS*/
+
+@media only screen and (max-width: 960px) {
+    .header-container,
+    .header-config,
+    .carousel-home,
+    .news,
+    .releases,
+    .catalog,
+    .about-us,
+    .events,
+    .contact-us,
+    .footer {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .header-container,
+    .header-config,
+    .carousel-home,
+    .news,
+    .releases,
+    .catalog,
+    .about-us,
+    .events,
+    .contact-us,
+    .footer {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .header-container,
+    .header-config,
+    .carousel-home,
+    .news,
+    .releases,
+    .catalog,
+    .lista-catalogo,
+    .about-us,
+    .events,
+    .contact-us,
+    .footer {
+        width: 100% !important;
+    }
+}
+
+/*  Medias guerys para la seccion de about-us
+que contiene grid */
+
+@media only screen and (max-width: 1420px) {
+    .info-about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+/* FIN SECCION MEDIA QUERYS*/
+/* -------------------- */
+

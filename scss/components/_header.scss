@@ -1,0 +1,25 @@
+/* HEADER - NAVBAR */
+
+.header-config {
+    width: 60%;
+    margin: auto;
+
+    .nav-cont-1 {
+        border-bottom: rgb(100, 58, 2) 3px solid;
+        margin: auto;
+        padding: 15px 0;
+
+        div ul li a {
+            font-family: 'Bebas Neue', cursive;
+            color: rgb(226, 226, 226);
+            font-size: 25px;
+            transition: .2s ease-in;
+
+            &:hover {
+                transform: scale(.95);
+            }
+        }
+    }
+}
+
+/* FIN HEADER - NAVBAR */

@@ -1,0 +1,36 @@
+/* ---INICIO FOOTER --- */
+@import '../base/maps';
+
+
+.footer {
+    background-color: rgb(39, 39, 39);
+    width: map-get($generales, anchoSecciones);
+    margin: auto;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+.footer .section-s-d {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.direccion, .phone, .copyright {
+    color:map-get($generales , colorParrafo);
+}
+
+.copyright {
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(48, 48, 48);
+}
+
+/* ---FIN FOOTER --- */

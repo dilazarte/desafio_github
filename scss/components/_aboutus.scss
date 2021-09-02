@@ -1,0 +1,55 @@
+
+/* --- INICIO SECCION NOSOTROS --- */
+
+.about-us {
+    background-color: #181818;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    border-bottom: rgb(100, 58, 2) 2px solid;
+}
+
+.container-about {
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info-about {
+    margin: auto;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.history,
+.map-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+}
+
+.about-us p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: WHITE;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.galeria-fotos .fotos img {
+    width: 45%;
+}
+
+/* --- FIN SECCION NOSOTROS --- */

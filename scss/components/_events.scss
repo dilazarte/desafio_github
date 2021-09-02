@@ -1,0 +1,28 @@
+
+/* --- INICIO SECCION EVENTOS --- */
+
+.events {
+    background-color: #181818;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    border-bottom: rgb(100, 58, 2) 2px solid;
+}
+
+.container-flyers {
+    margin: auto;
+    width: 90%;
+}
+
+.flyer {
+    padding: 0;
+    transition: .4s ease-in;
+}
+
+.flyer:hover {
+    transform: scale(1.10);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+/* --- FIN SECCION EVENTOS --- */
+

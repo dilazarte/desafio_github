@@ -1,0 +1,78 @@
+
+/* --- NEWS & RELEASES DEL HOME ---*/
+
+.news {
+    background-color: #181818;
+    width: 60%;
+    margin: auto;
+    border-bottom: rgb(100, 58, 2) 2px solid;
+    
+}
+
+.releases {
+    background-color: #181818;
+    width: 60%;
+    margin: auto;
+    border-bottom: rgb(100, 58, 2) 2px solid;
+}
+
+.container-news,
+.container-releases {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+div .card-cd-1 { 
+    width: 230px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+}
+
+.card-cd-1 img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-cd-1 .cd-title {
+    padding-top: 10px ;
+}
+
+
+.card-cd-1 button {
+    border: none;
+    width: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(179, 179, 179);
+    padding: 5px 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    transition: .5s ease;
+}
+
+.card-cd-1 button:hover {
+    background-color: rgb(206, 206, 206);
+    color:rgb(0, 0, 0)
+}
+
+/*ESTE ES EL H5*/
+.card-cd-1 .cd-title {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.83em;
+    font-weight: 600;
+}
+
+/* --- FIN NEWS & RELEASES DEL HOME ---*/
+

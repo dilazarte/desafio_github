@@ -1,0 +1,36 @@
+/* ---------------------------- */
+/* --- INICIO DE EXTENDS --- */
+
+%encabezados1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(194, 134, 24);
+    text-align: left;
+    font-family: 'Pirata One', cursive;
+    font-weight: 400;
+    padding: 25px 0px 25px 50px;
+    background: linear-gradient(#000, #181818);
+    letter-spacing: 2px;
+}
+
+%encabezados2 {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(153, 132, 93);
+    text-align: left;
+    font-family: 'Pirata One', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.titulo-seccion {
+    @extend %encabezados1;
+}
+
+.subtitulo-seccion {
+    @extend %encabezados2;
+}
+
+/* --- FIN DE EXTENDS --- */
+/* ---------------------------- */
