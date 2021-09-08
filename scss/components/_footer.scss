@@ -14,15 +14,20 @@
 
 .footer .section-s-d {
     display: flex;
-    justify-content:space-evenly;
-    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content:space-between;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+.direccion, .socials {
+    padding: 6px;
+}
+
 .socials .social-icono {
-    font-size: 22px;
+    font-size: 25px;
+    padding: 4px;
     color:rgb(161, 161, 161);
 }
 

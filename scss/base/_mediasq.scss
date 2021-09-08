@@ -38,6 +38,7 @@
     .news,
     .releases,
     .catalog,
+    .container-catalog,
     .lista-catalogo,
     .about-us,
     .events,
@@ -45,17 +46,23 @@
     .footer {
         width: 100% !important;
     }
+    .video-promo {
+        width: 80%;
+    }
+    .section-s-d {
+        display: block;
+    }
 }
 
 /*  Medias guerys para la seccion de about-us
 que contiene grid */
 
-@media only screen and (max-width: 1420px) {
-    .info-about {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
+// @media only screen and (max-width: 1420px) {
+//     .info-about {
+//         // grid-template-columns: 1fr;
+//         // grid-template-rows: repeat(2, 1fr);
+//     }
+// }
 
 /* FIN SECCION MEDIA QUERYS*/
 /* -------------------- */

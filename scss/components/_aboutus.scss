@@ -11,7 +11,7 @@
 
 .container-about {
     display: flex;
-    margin: 0 20px;
+    margin: 0;
     align-items: center;
     align-content: center;
     padding-top: 20px;
@@ -21,10 +21,10 @@
 .info-about {
     margin: auto;
     padding-bottom: 40px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-gap: 20px;
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    // grid-template-rows: 1fr;
+    // grid-gap: 20px;
     justify-items: center;
     align-items: center;
 }
@@ -45,7 +45,7 @@
     color: WHITE;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    text-align: justify;
+    text-align: center;
 }
 
 .galeria-fotos .fotos img {

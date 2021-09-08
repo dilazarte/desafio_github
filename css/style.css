@@ -120,15 +120,20 @@ div .card-cd-1 {
 
 .footer .section-s-d {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
+.direccion, .socials {
+  padding: 6px;
+}
+
 .socials .social-icono {
-  font-size: 22px;
+  font-size: 25px;
+  padding: 4px;
   color: #a1a1a1;
 }
 
@@ -176,15 +181,20 @@ div .card-cd-1 {
   margin-bottom: 20px;
 }
 
-table, tr, td {
+.container-catalog {
+  width: 95%;
+  margin: auto;
+}
+
+table, tr, td, th {
   border: 1px solid black;
   border-collapse: collapse;
   color: black;
   font-size: 12px;
-  padding: 0 8px;
+  padding: 0 2px;
 }
 
-.list-title td {
+.list-title th {
   background-color: dimgray;
   color: white;
   font-size: 14px;
@@ -194,6 +204,11 @@ table, tr, td {
 #video-promo {
   margin: auto;
   padding-bottom: 20px;
+}
+
+.teto {
+  width: 80%;
+  margin: 0 10%;
 }
 
 /* --- FIN SECCION CATALOGO --- */
@@ -208,7 +223,7 @@ table, tr, td {
 
 .container-about {
   display: flex;
-  margin: 0 20px;
+  margin: 0;
   align-items: center;
   align-content: center;
   padding-top: 20px;
@@ -218,10 +233,6 @@ table, tr, td {
 .info-about {
   margin: auto;
   padding-bottom: 40px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-gap: 20px;
   justify-items: center;
   align-items: center;
 }
@@ -241,7 +252,7 @@ table, tr, td {
   color: WHITE;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  text-align: justify;
+  text-align: center;
 }
 
 .galeria-fotos .fotos img {
@@ -420,6 +431,7 @@ body {
 .news,
 .releases,
 .catalog,
+.container-catalog,
 .lista-catalogo,
 .about-us,
 .events,
@@ -427,15 +439,17 @@ body {
 .footer {
     width: 100% !important;
   }
+
+  .video-promo {
+    width: 80%;
+  }
+
+  .section-s-d {
+    display: block;
+  }
 }
 /*  Medias guerys para la seccion de about-us
 que contiene grid */
-@media only screen and (max-width: 1420px) {
-  .info-about {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
 /* FIN SECCION MEDIA QUERYS*/
 /* -------------------- */
 
