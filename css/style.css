@@ -120,8 +120,8 @@ div .card-cd-1 {
 
 .footer .section-s-d {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -357,7 +357,7 @@ table, tr, td, th {
 /* ---------------------------- */
 /* --- INICIO DE EXTENDS --- */
 .titulo-seccion {
-  font-size: 50px;
+  font-size: 40px;
   text-transform: capitalize;
   color: #c28618;
   text-align: left;
@@ -446,6 +446,15 @@ body {
 
   .section-s-d {
     display: block;
+  }
+
+  .fixed-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .contact-sec {
+    width: 90%;
   }
 }
 /*  Medias guerys para la seccion de about-us

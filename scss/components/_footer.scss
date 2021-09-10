@@ -14,8 +14,8 @@
 
 .footer .section-s-d {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content:space-around;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
