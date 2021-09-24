@@ -17,7 +17,8 @@
 }
 
 .container-news,
-.container-releases {
+.container-releases,
+.container-catalog {
     display: flex;
     justify-content: space-evenly;
     align-items:flex-end;
@@ -49,15 +50,17 @@ div .card-cd-1 {
 
 .card-cd-1 button {
     border: none;
-    width: 100px;
+    width: 115px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(179, 179, 179);
-    padding: 5px 12px;
+    padding: 5px 5px;
     margin-top: 5px;
     margin-bottom: 10px;
-    text-transform: capitalize;
+    text-transform: initial;
     color: rgb(0, 0, 0);
     transition: .5s ease;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .card-cd-1 button:hover {
@@ -68,7 +71,7 @@ div .card-cd-1 {
 /*ESTE ES EL H5*/
 .card-cd-1 .cd-title {
     color: whitesmoke;
-    text-transform: uppercase;
+    text-transform: inherit;
     font-family: 'Ubuntu', sans-serif;
     font-size: 0.83em;
     font-weight: 600;

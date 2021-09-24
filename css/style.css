@@ -19,11 +19,44 @@
 .header-config .nav-cont-1 div ul li a {
   font-family: "Bebas Neue", cursive;
   color: #e2e2e2;
-  font-size: 25px;
+  font-size: 22px;
   transition: 0.2s ease-in;
 }
 .header-config .nav-cont-1 div ul li a:hover {
   transform: scale(0.95);
+}
+.header-config .nav-cont-1 .navbar-cont-3 {
+  flex-grow: 0;
+}
+
+.carrito-compra {
+  background-color: #181818;
+  border-radius: 50%;
+  position: relative;
+}
+.carrito-compra .icono-cart {
+  color: white;
+  padding: 11px;
+}
+.carrito-compra .container-contador {
+  position: absolute;
+  left: 27px;
+  top: -8px;
+  bottom: 28px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  width: 19px;
+  text-align: center;
+  padding: 0px;
+}
+.carrito-compra .container-contador .contador {
+  margin-top: 0px;
+  margin-bottom: -16rem;
+  margin: -1px;
+  padding: -10px;
+  font-size: 12px;
 }
 
 /* FIN HEADER - NAVBAR */
@@ -51,7 +84,8 @@
 }
 
 .container-news,
-.container-releases {
+.container-releases,
+.container-catalog {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
@@ -81,15 +115,17 @@ div .card-cd-1 {
 
 .card-cd-1 button {
   border: none;
-  width: 100px;
+  width: 115px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #b3b3b3;
-  padding: 5px 12px;
+  padding: 5px 5px;
   margin-top: 5px;
   margin-bottom: 10px;
-  text-transform: capitalize;
+  text-transform: initial;
   color: black;
   transition: 0.5s ease;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .card-cd-1 button:hover {
@@ -100,7 +136,7 @@ div .card-cd-1 {
 /*ESTE ES EL H5*/
 .card-cd-1 .cd-title {
   color: whitesmoke;
-  text-transform: uppercase;
+  text-transform: inherit;
   font-family: "Ubuntu", sans-serif;
   font-size: 0.83em;
   font-weight: 600;
@@ -455,6 +491,10 @@ body {
 
   .contact-sec {
     width: 90%;
+  }
+
+  div .card-cd-1 {
+    width: 262px;
   }
 }
 /*  Medias guerys para la seccion de about-us
